@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: Overpass, sans-serif;
+}
+
+body {
+  background-color: var(--Very-Dark-Blue);
+}
+.rating-container {
+  padding: 0 1.4rem;
+  width: 18rem;
+  height: 23rem;
+  background-image: linear-gradient(
+    to top,
+    hsl(221, 31%, 14%),
+    hsl(214, 31%, 15%)
+  );
+  margin: 10rem auto;
+  display: flex;
+  align-items: center;
+  border-radius: 1.6rem;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.state-1 {
+  /* display: none; */
+  width: auto;
+}
+.state-2 {
+  margin: 0 auto;
+  /* display: none; */
+}
+.svg-star {
+  background-color: hsla(214, 24%, 19%, 0.779);
+  display: inline-block;
+  margin-bottom: 1.6rem;
+  padding: 0.6rem;
+  border-radius: 5rem;
+  width: 1rem;
+  height: 1rem;
+}
+.ratings {
+  display: flex;
+}
+h1 {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  color: var(--White);
+  font-weight: 500;
+}
+li {
+  list-style: none;
+}
+.rating:hover {
+  background-color: var(--Orange);
+  color: var(--White);
+}
+.rating {
+  text-align: center;
+  text-decoration: none;
+  color: var(--Medium-Grey);
+  font-size: 0.9rem;
+  display: inline-block;
+  margin-right: 1.2rem;
+  margin-top: 1.2rem;
+  width: 1rem;
+  height: 1rem;
+  padding: 0.7rem;
+  border-radius: 50%;
+  background-color: hsla(214, 24%, 19%, 0.779);
+}
+p {
+  font-size: 12px;
+  line-height: 1.2rem;
+  color: var(--Medium-Grey);
+}
+button {
+  margin-top: 1.4rem;
+  width: 100%;
+  border-radius: 5rem;
+  height: 2.3rem;
+  font-size: 12px;
+  letter-spacing: 2px;
+  background-color: var(--Orange);
+  color: var(--White);
+  border-style: none;
+}
+button:hover {
+  background-color: var(--White);
+  color: var(--Orange);
+}
+.phone {
+  transform: scale(0.8);
+  width: 12rem;
+  padding: 0;
+  /* height: 9rem; */
+  margin: 0 auto;
+}
+span {
+  padding: 0.4rem;
+  background-color: hsla(213, 37%, 27%, 0.779);
+  color: var(--Orange);
+  font-size: 12px;
+  /* display: inline-block; */
+  border-radius: 2rem;
+}
+.select {
+  margin-left: 4rem;
+}
+.thank-you {
+  /* display: inline-block; */
+  margin-left: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+  justify-self: center;
+  color: color;
+}
+.appreciate {
+  padding: 0 0.7rem;
+  text-align: center;
+}
